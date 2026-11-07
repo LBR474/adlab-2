@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/*
+Theme Name: Hello Elementor Child 02
+Template: hello-elementor
+*/
+
+/* === Base Reset (light touch only) === */
+body {
+  margin: 0;
+  background: #000;
+  font-family: Arial, sans-serif;
+}
+
+/* === CKL Wrapper === */
+.ckl-wrapper {
+  color: white;
+  position: relative;
+}
+
+/* === Top Bar === */
+.ckl-topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px;
+  font-size: 0.8rem;
+  background: #111;
+  opacity: 0.9;
+}
+
+/* === Header === */
+.ckl-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* Logo */
+.ckl-logo {
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+/* === Navigation === */
+.ckl-nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ckl-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: opacity 0.3s;
+}
+
+.ckl-nav a:hover {
+  opacity: 0.7;
+}
+
+/* === Hero Section === */
+.ckl-hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.ckl-hero-inner {
+  max-width: 700px;
+}
+
+.ckl-hero h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.ckl-hero h3 {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.ckl-hero p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+#adlab-logo-container {
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+	overflow: visible;
+}
+#adlab-logo-container svg {
+    overflow: visible;
+	
+}
+
+#adlab-content-lower {
+    width: 90%;
+    max-width: 1174px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#adlab-svg-container {
+	overflow: visible;
+	
+
+
+}
+#GSAP-anim-container {
+	
+	overflow: visible;
+}
+
+#adlab-svg-container,
+#adlab-svg-container svg,
+#GSAP-anim-container {
+    overflow: visible !important;
+}
+
