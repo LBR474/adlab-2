@@ -117,7 +117,15 @@ body {
 #GSAP-anim-container {
 	
 	overflow: visible;
-}
+	@media (max-width: 767px) {
+    #GSAP-anim-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
 
 #adlab-svg-container,
 #adlab-svg-container svg,
